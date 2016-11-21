@@ -16,7 +16,6 @@ params.forEach(function(param) {
   if (process.platform === 'win32') {
     cmd = 'start cmd /k ' + param
   } else {
-    // console.log(process.cwd())
     cmd = 'osascript -e \'tell application "Terminal" to do script "cd ' + process.cwd() + ' && ' + param + '"\''
   }
 
