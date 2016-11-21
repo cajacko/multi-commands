@@ -1,0 +1,31 @@
+{
+  "name": "multi-commands",
+  "version": "1.0.0",
+  "description": "Npm module to run multiple commands in separate windows at the same time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "multi": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cajacko/multi-commands.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "cmd",
+    "windows",
+    "mac",
+    "async"
+  ],
+  "author": "Charlie Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cajacko/multi-commands/issues"
+  },
+  "homepage": "https://github.com/cajacko/multi-commands#readme"
+}
